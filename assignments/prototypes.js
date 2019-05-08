@@ -192,7 +192,7 @@ const wizard = new Villain({
 });
 
 console.log(paladin.holySpell(wizard));
-console.log(wizard);
+console.log(wizard.healthPoints);
 console.log(wizard.fireBall(paladin));
-console.log(paladin);
+console.log(paladin.healthPoints);
 console.log(paladin.holySpell(wizard));
